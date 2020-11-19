@@ -1,11 +1,24 @@
-public class Schüler extends Mensch {
+public class Schueler extends Mensch {
     private String fachrichtung;
     private int klasse;
 
-    public Schüler(String name, String vorname, String geburtsort, String fachrichtung, int klasse) {
+    public Schueler(String name, String vorname, String geburtsort, String fachrichtung, int klasse) {
         super(name, vorname, geburtsort);
         this.fachrichtung = fachrichtung;
         this.klasse = klasse;
+    }
+
+
+    @Override
+    public String toString() {
+        return super.toString()+
+                ""+
+                "Schüler{" +
+                "fachrichtung='" + fachrichtung + '\'' +
+                ", klasse=" + klasse +
+                '}'+
+                '}';
+
     }
 
     public String getFachrichtung() {
