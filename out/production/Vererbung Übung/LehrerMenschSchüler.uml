@@ -1,0 +1,55 @@
+﻿[Files]
+File0=C:\Users\Lar.Przyby\IdeaProjects\Vererbunguebung\src\Lehrer.java
+File1=C:\Users\Lar.Przyby\IdeaProjects\Vererbunguebung\src\Mensch.java
+File2=C:\Users\Lar.Przyby\IdeaProjects\Vererbunguebung\src\Schüler.java
+
+[Box:  - Lehrer]
+X=14
+Y=385
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Mensch]
+X=378
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Schüler]
+X=662
+Y=377
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=12
+ShowObjectDiagram=0
+
+[Connections]
+V0=Lehrer#Mensch#Inheritends####0#0#0###0#0
+V1=Schüler#Mensch#Inheritends####0#0#0###0#0
+
+[Interactive]
+I0=
+

@@ -12,8 +12,8 @@ public class Schueler extends Mensch {
     @Override
     public String toString() {
         return super.toString()+
-                ""+
-                "Schüler{" +
+                " "+
+                "Schueler{" +
                 "fachrichtung='" + fachrichtung + '\'' +
                 ", klasse=" + klasse +
                 '}'+
